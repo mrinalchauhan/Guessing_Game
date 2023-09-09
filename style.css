@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+    color:rgb(239, 235, 242);
+    
+    
+}
+h1{
+    position:relative;
+    top:50%;
+    left:37%;
+}
+.again{
+    font-size:90%;
+    position: absolute;
+    top:0%;
+    width: 15%;
+    height:8%;
+   
+
+}
+body{
+    background-color:black;
+}
+.guess{
+    
+    position:absolute;
+    font-size: 15vh;
+    bottom:50%;
+    left:46%;
+    
+}
+.word{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 250%;
+    font-weight: bolder;
+    color:purple;
+    font-style:normal;
+    margin: auto;
+}
+
+button{
+    
+    width:20vh;
+    color:rgb(18, 1, 18);
+    font-weight:bolder;
+}
+.choose{
+    right:0%;
+    top:0%;
+    position:absolute;
+    font-size: 6vh;
+    font-style:oblique
+}
+header{
+    height:40vh;
+    
+    font-family:'Noto Sana Mahajani';
+
+    
+    
+    border-bottom: 7px solid rgb(196, 216, 201);
+     
+
+}
+main{
+    font-weight: bolder;
+    font-size: 3vh;
+    display :flex;
+    align-items:center;
+    height:50vh;
+    padding:0%;
+    justify-content: center left;
+    justify-content: space-between;
+    
+    
+}
+
+.scores{
+    font-size: 220%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   /* color:orangered   */
+   padding: 3%;
+}
+
+
+/* 
+.score{
+    color:orangered  
+}
+
+.highscore{
+    color:rgb(42, 165, 81);  
+}
+
+
+
+*/
+.highscores{
+    font-size: 200%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   /* color:rgb(42, 165, 81);  */
+   padding: 4%;
+}
+
+
+input {
+  height: 4rem;
+  width: 15rem;
+  font-size: 180%;
+  font-style:inherit;
+  color:rgb(233, 216, 216);
+  background-color: black;
+}
+
+
+section{
+    padding:3%;
+    left: 0%;
+    top:0%;
+    border-radius: 2px solid green;
+
+}
+.check{
+    padding:2%;
+    width:15rem;
+}
